@@ -1,9 +1,23 @@
 // solving road and library
 
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
 long connected;
+
+int isCameraOpen(){
+
+
+	if(!canSeeface)
+	return true;
+
+	return false;
+
+	
+}
+
 
 void dfs(int i, vector<int> &visited, vector<vector<int>>& graph)
 {
