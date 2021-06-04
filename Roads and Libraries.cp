@@ -16,6 +16,15 @@ void dfs(int i, vector<int> &visited, vector<vector<int>>& graph)
 	}
 }
 
+int checkLocation(){
+
+	if(iflocation)
+	return true;
+
+	return false;
+
+}
+
 int main() {
 	//testcases count
 	int t;
