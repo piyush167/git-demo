@@ -15,6 +15,7 @@ int isCameraOpen(){
 
 	return false;
 
+	return false;
 	
 }
 
