@@ -9,14 +9,10 @@ long connected;
 
 int isCameraOpen(){
 
-
 	if(!canSeeface)
 	return true;
 
-	return false;
-
-	return false;
-	
+	retur false;	
 }
 
 
