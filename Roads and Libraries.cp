@@ -1,9 +1,20 @@
 // solving road and library
 
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
 long connected;
+
+int isCameraOpen(){
+
+	if(!canSeeface)
+	return true;
+
+	retur false;	
+}
+
 
 void dfs(int i, vector<int> &visited, vector<vector<int>>& graph)
 {
@@ -14,6 +25,15 @@ void dfs(int i, vector<int> &visited, vector<vector<int>>& graph)
 		if(visited[graph[i][j]]==0)
 			dfs(graph[i][j],visited,graph);
 	}
+}
+
+int checkLocation(){
+
+	if(iflocation)
+	return true;
+
+	return false;
+
 }
 
 int main() {
